@@ -761,10 +761,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33c5bd5b4bdd98e4ebced71f1fc7eb12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _turnJumpTime: 0.5
-  _lineJumpTime: 0.3
-  _overSawJumpTime: 1.5
-  _smallJumpTime: 0.5
+  _turnJumpTime: 1
+  _lineJumpTime: 1.2
+  _overSawJumpTime: 1
+  _smallJumpTime: 2
+  _speed: 4
 --- !u!65 &653511549
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2100,7 +2101,7 @@ PrefabInstance:
     - target: {fileID: -2346487178057581815, guid: 0d67396df8b42594181a64e85b9e7fa6,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 0d67396df8b42594181a64e85b9e7fa6,
         type: 3}
@@ -2652,7 +2653,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049544673}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1.38, y: -4.066019, z: 7.83}
+  m_LocalPosition: {x: 1.38, y: -4.066019, z: 8.329}
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_Children: []
   m_Father: {fileID: 1532307153}
